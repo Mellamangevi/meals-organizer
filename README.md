@@ -1,5 +1,8 @@
 # meals-organizer
 
+[![Lastest build](https://github.com/Mellamangevi/meals-organizer/workflows/build/badge.svg)](https://github.com/Mellamangevi/meals-organizer/actions)
+
+
 ## Project setup
 ```
 npm install
