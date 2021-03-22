@@ -1,0 +1,15 @@
+export enum IngredientType {
+    oil = 1,
+    milk = 2,
+    vegetable = 3,
+    cereals = 4,
+    fish = 5,
+    meat = 6,
+    green = 7,
+    mushroom = 8,
+    nut = 9,
+    egg = 10,
+    rice = 11,
+    seafood = 12,
+    fruit = 13,
+};
