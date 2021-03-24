@@ -1,8 +1,8 @@
 <template>
     <v-navigation-drawer
       v-model="menuOpen"
-      absolute
-      bottom
+      fixed
+      top
       temporary
     >
       <v-list
@@ -11,7 +11,6 @@
       >
         <v-list-item-group
           v-model="group"
-          dark
           active-class="primary"
         >
             <v-list-item to="/">
@@ -21,7 +20,7 @@
                 <v-list-item-title>Home</v-list-item-title>
             </v-list-item>
 
-            <v-list-item to="/">
+            <v-list-item to="/about">
                 <v-list-item-icon>
                     <v-icon>fa-hippo</v-icon>
                 </v-list-item-icon>

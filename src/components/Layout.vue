@@ -2,7 +2,7 @@
     <div>
         <Topbar @toggleMenu="onToggleSidebarOpen" />
         <Sidebar v-model="isSidebarOpen" />
-        <v-container class="mt-16">
+        <v-container class="my-16">
             <slot></slot>
         </v-container>
         <Footer />
